@@ -18,8 +18,8 @@ achat = pd.read_csv('achats.csv',sep=",")
 st.title("Bienvenue sur le SPCM")
 st.markdown(f'<h1 style="color:#ff000a;font-size:30px; text-align: center">{"Suivi Performance Campagne Marketing"}</h1>', unsafe_allow_html=True)
 
-image = Image.open('logo.PNG')
-st.image(image, width=250)
+#image = Image.open('logo.PNG')
+#st.image(image, width=250)
 st.markdown(f'<h1 style="text-align: center; text-decoration: underline;font-size:24px">{"Les chiffres clés"}</h1>', unsafe_allow_html=True)
 
 nbr_publicite = impression['timestamp'].count()
