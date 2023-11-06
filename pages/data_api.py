@@ -9,7 +9,7 @@ st.set_page_config(
     page_icon="📝",
 )
 
-ac = pd.read_csv("http://127.0.0.1:8000/get_data")
+ac = pd.read_json("http://127.0.0.1:8000/get_data")
 
 
 st.markdown(f'<h1 style="color:#ff000a;font-size:30px; text-align: center;text-decoration: underline">{"Les données de fASTAPI"}</h1>', unsafe_allow_html=True)
